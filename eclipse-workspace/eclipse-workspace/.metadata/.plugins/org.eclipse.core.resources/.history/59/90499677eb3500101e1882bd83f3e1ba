@@ -1,0 +1,9 @@
+package chap11;
+
+public class Exception04 {
+
+	public Exception04() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

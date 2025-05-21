@@ -1,0 +1,31 @@
+package chap11;
+
+import java.util.Scanner;
+
+public class Exception04 {
+	static void check(int num) throws Exception {
+		if (num < 0) {
+			throw new Exception("0보다 작아요");
+		} else {
+			System.out.println(num);
+		}
+	}
+
+	public Exception04() {
+		// TODO Auto-generated constructor stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요");
+		int num = sc.nextInt();
+		try {
+			if (num < 0)
+				throw new NumberFormatException("0보다 작습니다.");
+			else
+				System.out.println(num);
+
+			check(num);
+		} catch (Exception e) {
+			System.out.println("예외발생" + e);
+		}
+	}
+
+}
