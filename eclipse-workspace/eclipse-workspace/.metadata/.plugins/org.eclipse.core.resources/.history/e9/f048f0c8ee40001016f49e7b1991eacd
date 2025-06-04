@@ -1,0 +1,11 @@
+package chap13;
+import java.util.HashSet;
+
+public class HashSet {
+
+	public static void main(String[] args) {
+		HashSetEx<String> str = new HashSetEx<String>();
+
+	}
+
+}

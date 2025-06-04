@@ -1,0 +1,17 @@
+package chap13;
+
+import java.util.HashMap;
+
+public class HashMapEx2 {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> str =new HashMap<Integer,String>();
+		str.put(1, "A");
+		str.put(2, "B");
+		str.put(3, "C");
+		
+		System.out.println(str);
+
+	}
+
+}
